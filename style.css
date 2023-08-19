@@ -25,7 +25,20 @@ body {
     gap: 10px;
 }
 
-.num_convertido, .num_grados, .combo {
+.num_convertido, .num_grados, .combo, .calcular {
     padding: 5px 10px;
     border-radius: 8px;
+}
+
+.calcular {
+    background-color: blue;
+    border: 1px solid blue;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.calcular:hover {
+    background-color: rgb(58, 58, 58);
+    border: 1px solid black;
+    cursor: pointer;
 }
